@@ -1,0 +1,64 @@
+@font-face{font-family: BebasNeue; 
+    src: url(../fonts/BebasNeue-Regular.otf);
+    src: url(../fonts/BebasNeue-Regular.ttf);
+}
+
+@font-face{font-family: Kiona; 
+    src: url(../fonts/Kiona-Itallic.ttf);
+    src: url(../fonts/Kiona-Regular.ttf);
+}
+
+@font-face{font-family: Louis; 
+    src: url(../fonts/Louis\ George\ Cafe.ttf);
+    src: url(../fonts/Louis\ George\ Cafe\ Bold.ttf);
+    src: url(../fonts/Louis\ George\ Cafe\ Bold\ Italic.ttf);
+    src: url(../fonts/Louis\ George\ Cafe\ Italic.ttf);
+    src: url(../fonts/Louis\ George\ Cafe\ Light.ttf);
+    src: url(../fonts/Louis\ George\ Cafe\ Light\ Italic.ttf);
+}
+
+body{
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+header{
+    font-family: Louis;
+    display: flex;
+    gap: 13%;
+    background-image: url('../Media/TASKBAR-2.png');
+    background-size: cover;
+    margin-left: -0.7vw !important;
+    margin-right: -0.7vw !important;
+    margin-top: -0.7vw !important;
+    padding: 1.7vw;
+    margin-bottom: 0vh;
+}
+
+.logo{
+    display: flex;
+    gap: 5%;
+}
+
+.options{
+    display: flex;
+    gap: 10%;
+    width: 60%;
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: black;
+    padding-top: 5vh;
+    font-family: Louis;
+}
+
+.options a{
+    text-decoration: none;
+    color: black;
+}
+
+.options :hover{
+    font-size: 1.7vw;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+}

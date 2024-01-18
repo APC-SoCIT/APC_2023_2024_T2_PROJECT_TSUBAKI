@@ -1,0 +1,65 @@
+.footer{
+    display: flex;
+    background-color: #F6A1A1;
+    margin-left: -0.5vw;
+    margin-right: -0.5vw;
+    gap: 3%;
+    justify-content: center;
+    padding: 1vw;
+    color: white;
+}
+
+.acmrside{
+    display: flex;
+    padding-right: 1.5vw;
+    padding-top: 1.5vh;
+    border-right: 0.15vw white solid;
+    gap: 4%;
+}
+
+.acmr-name{
+    font-size: 2.7vw;
+    font-family: BebasNeue;
+    padding-top: 1.5vh;
+    text-shadow: 2px 2px 3px black;
+}
+
+.acmr-contact{
+    font-family: Louis;
+}
+
+.acmr-contact h4{
+    font-size: 1.4vw;
+    text-shadow: 2px 2px 3px black;
+}
+
+.acmr-contact h1{
+    font-size: 1.6vw;
+}
+
+.acmr-contact h3{
+    font-size: 1.3vw;
+}
+
+.tsubside{
+    display: flex;
+    gap: 2%;
+    max-width: 50%;
+    font-family: Louis;
+}
+
+.tsubside img{
+    width: 13vw;
+    padding-top: 1.7vh;
+}
+
+.tsub-contact h3{
+    font-size: 1.5vw;
+    text-shadow: 2px 2px 3px black;
+    margin-top: 1vh;
+}
+
+.tsub-contact p{
+    font-size: 1.3vw;
+    margin-bottom: -0.7vh;
+}

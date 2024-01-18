@@ -1,0 +1,112 @@
+
+.about-company {
+  background-color: rgba(255, 255, 255, 0.897);
+  margin: 200px;
+  padding: 50px;
+  text-align: center;
+  outline: solid #ffffff 1px;
+  outline-offset: 10px;
+  font-size: 20px;
+  z-index: 0;
+}
+
+.img-company {
+  background: url(https://outsourced.ph/storage/2021/03/10-legal-services-staff.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  filter: brightness(0.75);
+  position: relative;
+  z-index: -1;
+  padding: 0.5rem;
+  display: flex; 
+}
+
+.service-head {
+  margin: 40px 0;
+  padding: 30px 0 30px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.service-block {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex-direction: column;
+  display: flex;
+  border: none;
+  background-color: transparent;
+  max-width: 31%;
+  text-align: center;
+  padding: 20px;
+  margin: 20px 10px;
+}
+
+.card-img img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.card:hover {
+  flex-direction: column;
+  display: flex;
+  border: none;
+  background-color: rgb(13, 73, 61);
+  max-width: 31%;
+  color: black;
+  text-align: center;
+  padding: 10px 30px 0;
+  margin: 20px 10px 0;
+  transition: 0.5s;
+  filter: invert(100%);
+}
+
+.card:hover + .card-img img:hover {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.about-employee {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px 0;
+  padding: 100px 0 100px 0px;
+  background: linear-gradient(to bottom, rgb(86, 177, 147), rgb(13, 73, 61));
+  justify-content: center;
+}
+
+.meet-employee h2,
+.meet-employee p {
+  display: flex;
+  width: 50%;
+  margin: 0 100px 0 100px;
+  flex-direction: column;
+  color:#ffffff;
+}
+
+.meet-employee h2 {
+  font-size: 60px;
+}
+
+.meet-employee p {
+  margin-top: 30px;
+  font-size: 20px;
+  text-decoration: overline;
+}
+
+.employee-list {
+  width: 50%;
+}
+
+.carousel-item {
+  justify-content: space-around;
+}
+
+.active {
+  display: flex;
+}

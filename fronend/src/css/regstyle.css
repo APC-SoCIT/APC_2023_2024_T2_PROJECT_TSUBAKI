@@ -1,0 +1,252 @@
+@font-face{font-family: BebasNeue; 
+    src: url(../fonts/BebasNeue-Regular.otf);
+    src: url(../fonts/BebasNeue-Regular.ttf);
+}
+
+@font-face{font-family: Kiona; 
+    src: url(../fonts/Kiona-Itallic.ttf);
+    src: url(../fonts/Kiona-Regular.ttf);
+}
+
+@font-face{font-family: Louis; 
+    src: url(../fonts/Louis\ George\ Cafe.ttf);
+    src: url(../fonts/Louis\ George\ Cafe\ Bold.ttf);
+    src: url(../fonts/Louis\ George\ Cafe\ Bold\ Italic.ttf);
+    src: url(../fonts/Louis\ George\ Cafe\ Italic.ttf);
+    src: url(../fonts/Louis\ George\ Cafe\ Light.ttf);
+    src: url(../fonts/Louis\ George\ Cafe\ Light\ Italic.ttf);
+}
+
+body{
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.regheader-content{
+    background-image: url(../Media/regheader.png);
+    font-family: Kiona;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    font-size: 5vw;
+}
+
+.regheader-content img{
+    width: 17vw;
+}
+
+.regalt-content{
+    background-color: rgba(255, 255, 255, 0.6);
+    border-top: 0.3vw lightpink solid;
+    text-align: center;
+    padding: 1vw;
+    margin-bottom: 2vh;
+}
+
+.regalt-head{
+    font-family: Kiona;
+    font-size: 1.4vw;
+    margin-top: 2vh;
+}
+
+.butts{
+    display: flex;
+    gap:0.5vw;
+    padding-top: 2.7vh;
+    justify-content: center;
+}
+
+.butts button{
+    background-color: transparent;
+    border: none;
+}
+
+.butts img{
+    width: 14vw;
+}
+
+.regalt-content p#a{
+    font-size: 1.3vw;
+    font-family: Kiona;
+    margin-top: 2.4vh;
+}
+
+.regform-content{
+    background-image: url(../Media/logreg-bg.png);
+    background-position: cover;
+    padding: 2vw;
+}
+
+.regform{
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-left: 13%;
+    margin-right: 13%;
+    padding-bottom: 5vh;
+}
+
+.regform h4{
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 2vw;
+    font-family: BebasNeue;
+    font-size: 2.6vw;
+}
+
+.regform form{
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+.regform label{
+    font-family: Kiona;
+    font-size: 1.3vw;
+}
+
+.regform input{
+    font-family: Louis;
+    font-style: italic;
+    width: 40%;
+}
+
+.regform select{
+    font-family: Louis;
+    font-style: italic;
+}
+
+#account{
+    text-align: center;
+}
+
+#account label{
+    padding-bottom: 2vh;
+}
+
+#account #usname{
+    margin-left: 3vw;
+}
+
+#account #username{
+    width: 27% !important;
+}
+
+#account #password{
+    width: 24% !important;
+}
+
+#account #passwdcon{
+    margin-left: 3vw;
+}
+
+#gen-info label{
+    margin-bottom: 2vh;
+}
+
+#gen-info input{
+    margin-right: 0.6vw;
+}
+
+#gen-info select{
+    margin-right: 0.6vw;
+}
+
+#gen-info #fname{
+    width: 20%;
+}
+
+#gen-info #mname{
+    width: 17%;
+}
+
+#gen-info #lname{
+    width: 20%;
+}
+
+#gen-info select{
+    width: 12%;
+}
+
+#gen-info #birthday{
+    width: 15%;
+}
+
+#gen-info #contactno{
+    width: 28%;
+}
+
+#address-1{
+    display: flex;
+}
+#address-2{
+    display: flex;
+}
+
+.reg-butt{
+    text-align: center;
+    padding: 2.2vw;
+}
+
+.reg-butt button{
+    font-family: Kiona;
+    font-size: 1.4vw;
+}
+
+.regbene-content{
+    padding-bottom: 5vh;
+}
+
+.regbene-title{
+    font-family: BebasNeue;
+    font-size: 4vw;
+    text-align: center;
+}
+
+.slideup{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 2vw;
+}
+
+#img-cont{
+    position:relative;
+    display: flex;
+    overflow: hidden;
+}
+
+#why-image{
+    width: 87%;
+}
+
+#why-text{
+    position: absolute;
+    width: 87%;
+    height: 0;
+    bottom:0;
+    background-color: rgba(76, 149, 144, 0.9);
+    padding: 0.4vw;
+    color: white;
+    transition: height 0.25s ease-in-out;
+}
+
+#why-text h4{
+    font-family: Kiona;
+    font-size: 2.3vw;
+    font-weight: bold;
+}
+
+#why-text p{
+    font-family: Louis;
+    font-size: 1.4vw;
+}
+
+#img-cont:hover > div#why-text {
+    height: 100%;
+}
+
+.benetitles{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 3vw;
+    font-family: Kiona;
+    margin-left: -2vw;
+}

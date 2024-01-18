@@ -1,0 +1,196 @@
+@font-face{font-family: BebasNeue; 
+    src: url(../fonts/BebasNeue-Regular.otf);
+    src: url(../fonts/BebasNeue-Regular.ttf);
+}
+
+@font-face{font-family: Kiona; 
+    src: url(../fonts/Kiona-Itallic.ttf);
+    src: url(../fonts/Kiona-Regular.ttf);
+}
+
+@font-face{font-family: Louis; 
+    src: url(../fonts/Louis\ George\ Cafe.ttf);
+    src: url(../fonts/Louis\ George\ Cafe\ Bold.ttf);
+    src: url(../fonts/Louis\ George\ Cafe\ Bold\ Italic.ttf);
+    src: url(../fonts/Louis\ George\ Cafe\ Italic.ttf);
+    src: url(../fonts/Louis\ George\ Cafe\ Light.ttf);
+    src: url(../fonts/Louis\ George\ Cafe\ Light\ Italic.ttf);
+}
+
+body{
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.entrance{
+    text-align: center;
+    background-image: url('../Media/bg-3.png');
+    min-height: 85vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -0.7vw !important;
+    margin-right: -0.7vw !important;
+    margin-top: -1vh;
+}
+
+.entrance-msg{
+    position: absolute;
+    z-index: 1;
+    top: 25%;
+    left: 21%;
+    min-width: 60%;
+    min-height: 30%;
+    text-align: center;
+    background-color: rgba(87, 69, 69, 0.57);
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+    margin-top: 2vh;
+    border-top: 5px lightpink solid;
+    border-bottom: 5px lightpink solid;
+    text-shadow: 2px 2px 3px black;
+    color: white;
+}
+
+.entrance-msg h2{
+    font-size: 4.2vw;
+    margin-bottom: -2vh;
+    font-family: Kiona;
+}
+
+.entrance-msg p{
+    font-size: 2.6vw;
+    font-family: Louis;
+}
+
+.about-short{
+    display: flex;
+    gap: 2%;
+    margin-left: -0.5%;
+    margin-right: 1vw;
+    text-align: justify;
+}
+
+.cont-guide{
+    position: absolute;
+    z-index: 1;
+    top: 70%;
+    background-color: rgba(87, 69, 69, 0.57);
+    background-position: cover;
+    min-width: 102%;
+    margin-left: -0.5vw;
+}
+
+.cont-guide img{
+    width: 10vw;
+}
+
+.content-guide-head{
+    text-align: center;
+    font-family: BebasNeue;
+    font-size: 1.8vw;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    margin-bottom: -4vh;
+    padding-top: -3vh;
+}
+
+.content-guide-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 7%;
+}
+
+.servsummary{
+    padding: 1.4%;
+}
+
+.about-short h1{
+    font-family: Kiona;
+    font-size: 2.3vw;
+    font-weight: bold;
+}
+
+.about-short p{
+    font-family: Louis;
+    font-size: 1.5vw;
+    text-align: justify;
+}
+
+.inqserv{
+    background-color:rgba(161, 213, 200, 0.47);
+    padding-top: 2.5vh;
+    margin-left: -0.5vw;
+    margin-right: -0.5vw;
+    border-top: 3vh aliceblue solid;
+}
+
+.instrn{
+    display: flex;
+    text-align: center;
+}
+
+.inqserv h3{
+    font-size: 1.7vw;
+    font-family: Kiona;
+    text-align: center;
+}
+
+.instrn p{
+    width: 60%;
+    margin-left: 7vw;
+    font-family: Louis;
+    margin-top: -3vh;
+}
+
+.instrn img{
+    width: 17vw;
+}
+
+.instrn #fin img{
+    width: 15.2vw;
+    margin-top: 1.2vh;
+    margin-bottom: 1.5vh;
+}
+
+.inq-btn{
+    text-align: center;
+    font-family: BebasNeue;
+    font-size: 2.5vw;
+    margin-top: 3vh;
+    padding-bottom: 1.2vh;
+    background-color: aliceblue;
+    padding-top: 2vh;
+}
+
+.SignUp{
+    background-image: url("../Media/business.png");
+    background-position: cover;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    min-height: 30vh;
+    color: white;
+    margin-left: -0.5vw;
+    margin-right: -0.5vw;
+}
+
+.SignUp h3{
+    font-size: 1.7vw;
+    font-family: Kiona;
+    text-shadow: 2px 2px 3px black;
+}
+
+.SignUp h1{
+    font-size: 2.7vw;
+    font-family: BebasNeue;
+    text-shadow: 2px 2px 3px black;
+}
+
+.SignUp button{
+    color: white;
+    font-family: Kiona;
+    font-size: 1.4vw;
+    text-shadow: 2px 2px 3px black;
+    background-color: transparent;
+}
+

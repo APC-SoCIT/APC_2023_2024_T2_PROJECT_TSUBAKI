@@ -1,0 +1,141 @@
+@font-face{font-family: BebasNeue; 
+    src: url(../fonts/BebasNeue-Regular.otf);
+    src: url(../fonts/BebasNeue-Regular.ttf);
+}
+
+@font-face{font-family: Kiona; 
+    src: url(../fonts/Kiona-Itallic.ttf);
+    src: url(../fonts/Kiona-Regular.ttf);
+}
+
+@font-face{font-family: Louis; 
+    src: url(../fonts/Louis\ George\ Cafe.ttf);
+    src: url(../fonts/Louis\ George\ Cafe\ Bold.ttf);
+    src: url(../fonts/Louis\ George\ Cafe\ Bold\ Italic.ttf);
+    src: url(../fonts/Louis\ George\ Cafe\ Italic.ttf);
+    src: url(../fonts/Louis\ George\ Cafe\ Light.ttf);
+    src: url(../fonts/Louis\ George\ Cafe\ Light\ Italic.ttf);
+}
+
+body{
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.bookform-content{
+    background-image:url("../Media/logreg-bg.png");
+}
+
+.bookheader-content{
+    background-image: url(../Media/bookingbg.png);
+    font-family: Kiona;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    font-size: 5vw;
+}
+
+.bookheader-content img{
+    width: 17vw;
+}
+
+.bookform-head-butts{
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    padding-top: 2.5vh;
+    font-family: Louis !important;
+}
+
+.bookform-head-butts button{
+    padding: 0.7vw;
+}
+
+.bookform-container{
+    display: flex;
+    gap: 3vw;
+    justify-content: center;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    padding-bottom: 7vh;
+}
+
+.bookform-head{
+    text-align: center;
+    padding: 2vw;
+    font-family: Kiona;
+}
+
+.bookform-1a-show {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 2.5vw;
+    border: 0.14vw lightpink solid;
+    padding-top: 9vh !important;
+}
+.bookform-1a-hide {
+    display: none;
+}
+
+.bookform-1a-show form{
+    display: flex;
+    gap: 1.3vw;
+    margin-top: 5vh;
+}
+
+.bookform-1b-show{
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 2.5vw;
+    border: 0.14vw lightpink solid;
+    padding-top: 9vh !important;
+}
+
+.bookform-1b-hide{
+    display: none;
+}
+
+.bookform-1b-show form{
+    margin-top: 5vh;
+}
+
+.bookform-container label{
+    margin-bottom: 1.5vh;
+    margin-left: 1vw;
+}
+
+.bookform-container select{
+    margin-left: 1vw;
+}
+
+.bookform-container #book-date{
+    margin-left: 1vw;
+}
+
+.bookform-container form{
+    font-family: Louis;
+    font-weight: bold;
+}
+
+.bookform-container p{
+    font-size: 1.6vw;
+    font-family: Kiona;
+}
+
+.bookform-2{
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 2.5vw;
+    border: 0.14vw lightpink solid;
+}
+
+.bookform-3{
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 2.5vw;
+    border: 0.14vw lightpink solid;
+}
+
+.bookform-submit-button{
+    text-align: center;
+    font-family: Kiona;
+    font-size: 1.8vw;
+    padding-bottom: 4vh;
+    margin-top: -3vh;
+}
